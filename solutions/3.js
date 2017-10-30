@@ -1,13 +1,10 @@
 const multiple = (a,string,i=0)=>{
   let str="";
-  if(i==a)
-  {
+  if(i==a){
    return str;
   }
-  else
-  {
+  else{
     str=str+string;
-    console.log(str);
   }
   multiple(a,string,i+1);
 }
